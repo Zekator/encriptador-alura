@@ -1,0 +1,129 @@
+body {
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+.logo{
+    margin: 20px;
+    display: inline-block;
+}
+
+.container{
+    height: 1024px;
+    width: 1440px;
+    left: -2277px;
+    top: 622px;
+}
+
+.section-left{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.text-box{
+    position: absolute;
+    width: 577px;
+    height: 600px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+    line-height: 150%;    
+    resize: none; /*para que no se pueda cambiar de tamaño el area de escritura*/
+    border: none;
+    background: #F3F5FC;
+}
+
+.alert{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;    
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+
+.bi-exclamation-circle-fill{
+    width: 16px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.alert h2{
+    width: 205px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    /* Gray/gray-400 */
+    color: #495057;
+    opacity: 0.8;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.container-btns{
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+.btn-encriptar{
+    display: inline-block;
+    padding: 20px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.btn-desencriptar{
+    display: inline-block;
+    padding: 20px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    font-size: 20px;
+}
+
+.section-right{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
