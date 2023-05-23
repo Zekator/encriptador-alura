@@ -5,7 +5,8 @@ body {
 }
 
 .logo{
-    margin: 20px;
+    position: absolute;
+    margin: 40px 84px;
     display: inline-block;
 }
 
@@ -25,6 +26,8 @@ body {
 
 .text-box{
     position: absolute;
+    margin: 20px;
+    padding: 30px;
     width: 577px;
     height: 600px;
     left: 240px;
@@ -108,7 +111,6 @@ body {
     width: 328px;
     height: 67px;
     background: #D8DFE8;
-    border: 1px solid #0A3871;
     border-radius: 24px;
     color:#0A3871;
     font-size: 20px;
@@ -116,6 +118,7 @@ body {
 
 .section-right{
     position: absolute;
+    top: 40px;
     width: 400px;
     height: 944px;
     left: 1000px;
@@ -127,3 +130,25 @@ body {
     border-radius: 32px;
 }
 
+.contenedor-munieco{
+    margin: 243px 32px;
+}
+
+.contenedor-parrafo{
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    text-align: center;
+    /* Gray/gray-500 */
+    color: #343A40;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
