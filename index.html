@@ -11,8 +11,7 @@
 
 </head>
 <body>
-    <main>
-        <div class="container">
+    <main class="container">
             <div class="logo">
                 <img src="./imagenes/Logo.svg" alt="logo Alura">
             </div>
@@ -39,19 +38,15 @@
                 </div>
 
                 <div class="contenedor-parrafo">
-                    <h3>Ningun mensaje fue encontrado</h3>
+                    <h3 id="result">Ningun mensaje fue encontrado</h3>
 
-                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                    <textarea id="areaTexto" rows="8" cols="80">Ingresa el texto que desees encriptar o desencriptar.</textarea>
                 </div>
 
                 <div class="contenedor-copiar">
-                    <input type="button" class="btn-copiar" value="Copiar">
-                </div>
-                <div class="contenedor-resultado">
-                    <p class="texto-resultado"></p>
+                    <input type="button" id="btn-copiar" value="Copiar">
                 </div>
             </section>
-        </div>
     </main>
 
 </body>
