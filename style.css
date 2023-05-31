@@ -4,17 +4,17 @@ body {
     background: #F3F5FC;
 }
 
-.logo{
-    position: absolute;
-    margin: 40px 84px;
-    display: inline-block;
-}
-
 .container{
     height: 1024px;
     width: 1440px;
     left: -2277px;
     top: 622px;
+}
+
+#logo{
+    position: absolute;
+    margin: 40px 84px;
+    display: inline-block;
 }
 
 .section-left{
@@ -24,7 +24,7 @@ body {
     border-radius: 15px;
 }
 
-.text-box{
+#text-box{
     position: absolute;
     margin: 20px;
     padding: 30px;
@@ -42,10 +42,13 @@ body {
     border: none;
     outline: none; 
     background: #F3F5FC;
-
 }
 
-.alert{
+#text-box::placeholder{
+    color: #0A3871;
+}
+
+#alert{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,7 +69,7 @@ body {
     flex-grow: 0;
 }
 
-.alert h2{
+#alert h2{
     width: 205px;
     height: 18px;
     font-family: 'Inter';
@@ -94,7 +97,7 @@ body {
     top: 885px;
 }
 
-.btn-encriptar{
+#btn-encriptar{
     display: inline-block;
     padding: 20px;
     gap: 8px;
@@ -106,7 +109,7 @@ body {
     font-size: 20px;
 }
 
-.btn-desencriptar{
+#btn-desencriptar{
     display: inline-block;
     padding: 20px;
     gap: 8px;
@@ -132,11 +135,11 @@ body {
     border-radius: 32px;
 }
 
-.contenedor-munieco{
+#contenedor-munieco{
     margin: 37% 5% auto;
 }
 
-.contenedor-parrafo{
+#contenedor-parrafo{
     color: #0A3871;
     display: inline-flex;
     flex-direction: column;
@@ -182,7 +185,7 @@ body {
     resize: none;
 }
 
-.contenedor-copiar{
+#contenedor-copiar{
     display: flex;
     width: 100%;
     height: 10%;

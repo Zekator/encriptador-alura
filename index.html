@@ -12,42 +12,45 @@
 </head>
 <body>
     <main class="container">
-            <div class="logo">
+            <div id="logo">
                 <img src="./imagenes/Logo.svg" alt="logo Alura">
             </div>
             
             <section class="section-left">
-                <div class="container-left">
-                    <textarea class="text-box" rows="40" cols="50" placeholder="Ingrese el texto aquí"></textarea>
+                <div id="container-left">
+                    <textarea id="text-box" rows="40" cols="50" placeholder="Ingrese el texto aquí"></textarea>
                 </div>
-                <div class="alert">
+                <div id="alert">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-exclamation-circle-fill" viewBox="0 0 16 16">
                         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
                     </svg> <h2>Solo letras minusculas sin acentos</h2>
                 </div>
                 <div class="container-btns">
-                    <input type="button" class="btn-encriptar" value="Encriptar">
-                    <input type="button" class="btn-desencriptar" value="Desencriptar">
+                    <input type="button" id="btn-encriptar" value="Encriptar">
+                    <input type="button" id="btn-desencriptar" value="Desencriptar">
                 </div>
             </section>
 
             <section class="section-right">
 
-                <div class="contenedor-munieco">
+                <div id="contenedor-munieco">
                     <img src="./imagenes/Muñeco.png">
                 </div>
 
-                <div class="contenedor-parrafo">
+                <div id="contenedor-parrafo">
                     <h3 id="result">Ningun mensaje fue encontrado</h3>
 
                     <textarea id="areaTexto" rows="8" cols="80">Ingresa el texto que desees encriptar o desencriptar.</textarea>
                 </div>
 
-                <div class="contenedor-copiar">
+                <div id="contenedor-copiar">
                     <input type="button" id="btn-copiar" value="Copiar">
                 </div>
             </section>
     </main>
+    <footer>
+        <h4>&copy Creado por Emanuel Liberal - </h4>
 
+    </footer>
 </body>
 </html>
