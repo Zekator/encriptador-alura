@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    
+    <script type="text/javascript" src="scripts.js"></script>
     <title>Challenge Encriptador - Alura</title>
-
 </head>
 <body>
     <main class="container">
@@ -26,8 +25,10 @@
                     </svg> <h2>Solo letras minusculas sin acentos</h2>
                 </div>
                 <div class="container-btns">
-                    <input type="button" id="btn-encriptar" value="Encriptar">
-                    <input type="button" id="btn-desencriptar" value="Desencriptar">
+
+                    <input type="button" id="btn-encriptar" value="Encriptar" onclick="encrypt()">
+                    <input type="button" id="btn-desencriptar" value="Desencriptar" onclick="decrypt()">
+
                 </div>
             </section>
 
@@ -44,13 +45,12 @@
                 </div>
 
                 <div id="contenedor-copiar">
-                    <input type="button" id="btn-copiar" value="Copiar">
+                    <input type="button" id="btn-copiar" value="Copiar" onclick="copy()">
                 </div>
             </section>
     </main>
     <footer>
-        <h4>&copy Creado por Emanuel Liberal - </h4>
-
+        <h4>&copy Creado por Emanuel Liberal</h4>
     </footer>
 </body>
 </html>
