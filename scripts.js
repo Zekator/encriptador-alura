@@ -18,30 +18,40 @@ function encrypt() {
     document.getElementById("contenedor-munieco").style.display = "none";
     document.getElementById("result").style.display = "none";
     document.getElementById("areaTexto").innerHTML = text;
-    document.getElementById("btn-copiar").style.display = "show";
+    document.getElementById("btn-copiar").style.visibility = "visible";
 
 }
 
 
 function decrypt(){
     
-text = document.getElementById("text-box").value.toLowerCase();
-    
-    // Reemplazar 'a' por 'ai'
-    text = text.replace(/a/g, 'ai');
+    text = document.getElementById("text-box").value.toLowerCase();
+        
     // Reemplazar 'e' por 'enter'
-    text = text.replace(/e/g, 'enter');
-    // Reemplazar 'i' por 'imes'
-    text = text.replace(/i/g, 'imes');
+    var text = text.replace(/enter/igm, 'e');
     // Reemplazar 'o' por 'ober'
-    text = text.replace(/o/g, 'ober');
+    var text = text.replace(/ober/igm, 'o');
+    // Reemplazar 'i' por 'imes'
+    var text = text.replace(/imes/igm, 'i');
+    // Reemplazar 'a' por 'ai'
+    var text = text.replace(/ai/igm, 'a');  
     // Reemplazar 'u' por 'ufat'
-    text = text.replace(/u/g, 'ufat');
+    var text = text.replace(/ufat/igm, 'u');
+
 
     document.getElementById("contenedor-munieco").style.display = "none";
-    document.getElementById("contenedor-parrafo").style.display = "none";
-    document.getElementById("areaTexto").innerHTML = "text";
-    document.getElementById("contenedor-copiar").style.display = "show";
-    document.getElementById("contenedor-copiar").style.display = "inherit";
+    document.getElementById("result").style.display = "none";
+    document.getElementById("areaTexto").innerHTML = text;
+    document.getElementById("btn-copiar").style.visibility = "visible";
+}
+
+function copy(){
+
+    var copyText = document.getElementById("areaTexto").value;
+
+    var tempTextCopy = document.createElement(  )
+
+    document.
+
 
 }

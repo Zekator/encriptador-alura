@@ -4,17 +4,17 @@ body {
     background: #F3F5FC;
 }
 
+header{
+    position: absolute;
+    margin: 40px 84px;
+    display: inline-block;
+}
+
 .container{
     height: 1024px;
     width: 1440px;
     left: -2277px;
     top: 622px;
-}
-
-#logo{
-    position: absolute;
-    margin: 40px 84px;
-    display: inline-block;
 }
 
 .section-left{
@@ -177,12 +177,15 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
+    font-size: 20px;;
     line-height: 70%;
-    text-align: left;
+    text-align: center;
     color: #495057;
     border: none;
     outline: none;
     resize: none;
+    box-sizing: content-box;
+    color: #145cb4;
 }
 
 #contenedor-copiar{
@@ -206,10 +209,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: none;
+    visibility: hidden;
 }
 
 footer{
+    position: relative;
     color: #0A3871;
     text-align: center;
+    padding: 1%;
+
 }
