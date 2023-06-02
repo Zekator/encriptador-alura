@@ -19,6 +19,7 @@ function encrypt() {
     document.getElementById("result").style.display = "none";
     document.getElementById("areaTexto").innerHTML = text;
     document.getElementById("btn-copiar").style.visibility = "visible";
+    document.getElementById("text-box").value = "";
 
 }
 
@@ -27,15 +28,10 @@ function decrypt(){
     
     text = document.getElementById("text-box").value.toLowerCase();
         
-    // Reemplazar 'e' por 'enter'
     var text = text.replace(/enter/igm, 'e');
-    // Reemplazar 'o' por 'ober'
     var text = text.replace(/ober/igm, 'o');
-    // Reemplazar 'i' por 'imes'
     var text = text.replace(/imes/igm, 'i');
-    // Reemplazar 'a' por 'ai'
     var text = text.replace(/ai/igm, 'a');  
-    // Reemplazar 'u' por 'ufat'
     var text = text.replace(/ufat/igm, 'u');
 
 
@@ -43,15 +39,13 @@ function decrypt(){
     document.getElementById("result").style.display = "none";
     document.getElementById("areaTexto").innerHTML = text;
     document.getElementById("btn-copiar").style.visibility = "visible";
+    document.getElementById("text-box").value = "";
 }
 
 function copy(){
 
     var copyText = document.getElementById("areaTexto").value;
-
-    var tempTextCopy = document.createElement(  )
-
-    document.
-
-
+    navigator.clipboard.writeText(copyText);
+    alert("Texto copiado");
+    
 }
