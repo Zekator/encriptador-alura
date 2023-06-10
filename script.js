@@ -47,5 +47,4 @@ function copy(){
     var copyText = document.getElementById("areaTexto").value;
     navigator.clipboard.writeText(copyText);
     alert("Texto copiado");
-    
 }

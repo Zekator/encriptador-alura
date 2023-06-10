@@ -172,20 +172,20 @@ header{
 #areaTexto{
     width: 80%;
     height: auto;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin:0% 7%;
+    padding: 5%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;;
     line-height: 70%;
-    text-align: center;
-    color: #495057;
+    text-align: justify;
+    color: #0A3871;
     border: none;
     outline: none;
     resize: none;
-    box-sizing: content-box;
-    color: #145cb4;
+    box-sizing: border-box;
+    line-height: 150%;
 }
 
 #contenedor-copiar{
